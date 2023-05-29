@@ -4,8 +4,8 @@ import re
 # Abrir el archivo JSON
 with open('dt.json', "r", encoding = "utf-8") as archivo:
     lista = json.load(archivo)
-# Obtener la lista de jugadores
-jugadores = lista["jugadores"]
+    # Obtener la lista de jugadores
+    jugadores = lista["jugadores"]
 
 def listaJugadores():
     print("\n-----------------------------------")

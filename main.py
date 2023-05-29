@@ -12,21 +12,21 @@ while True:
           4. Mostrar logros de jugador por nombre
           5. Calcular el promedio de puntos por partido del equipo entero ordenado por nombre
           6. Mostrar si el jugador deseado pertenece al salon de la fama del baloncesto
-          7.
-          8.
-          9.
-          10.
-          11.
-          12.
-          13.
-          14.
-          15.
-          16.
-          17.
-          18.
-          19.
-          20.
-          23.
+          7. Calcular y mostrar el jugador con la mayor cantidad de rebotes totales
+          8. Calcular y mostrar el jugador con el mayor porcentaje de tiros de campo
+          9. Calcular y mostrar el jugador con la mayor cantidad de asistencias totales
+          10. Mostrar los jugadores que han promediado más puntos por partido que el valor buscado
+          11. Mostrar los jugadores que han promediado más rebotes por partido que el valor buscado
+          12. Mostrar los jugadores que han promediado más asistencias por partido que el valor buscado
+          13. Calcular y mostrar el jugador con la mayor cantidad de robos totales
+          14. Calcular y mostrar el jugador con la mayor cantidad de bloqueos totales
+          15. Mostrar los jugadores que hayan tenido un porcentaje de tiros libres superior a el valor buscado
+          16. Calcula y muestra promedio de puntos por partido del equipo excluyendo al jugador con la menor cantidad de puntos por partido
+          17. Calcular y mostrar el jugador con la mayor cantidad de logros obtenidos
+          18. Mostrar los jugadores que hayan tenido un porcentaje de tiros triples superior a el valor buscado
+          19. Calcular y mostrar el jugador con la mayor cantidad de temporadas jugadas
+          20. Mostrar jugadores ordenados por posicion en la cancha y superior al porcentaje de tiros seleccionados
+          23. Punto bonus
           0. Salir del programa""")
     opcion = int(input("\nIngrese la opcion deseada: "))
     
