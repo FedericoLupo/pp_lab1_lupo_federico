@@ -49,45 +49,69 @@ while True:
             print("\n", respuesta)
 
         case 5:
-            respuesta = funciones.calcularPromedio()
-            print("\n", respuesta)
-
+            funciones.calcularPromedio()
+            
         case 6:
-            pass
-        
+            nombre= input("\nIngrese nombre del jugador: ")
+            respuesta = funciones.verificarMiembroSalonFama(nombre)
+            print("\n", respuesta)       
+
         case 7:
-            pass
+            respuesta = funciones.calcularMaximoJugador("rebotes_totales")
+            print("\nEl jugador con mayor cantidad de rebotes totales es:", respuesta)
+
         case 8:
-            pass
+            respuesta = funciones.calcularMaximoJugador("porcentaje_tiros_de_campo")
+            print("\nEl jugador con mayor porcentaje de tiros de campo es:", respuesta)
 
         case 9:
-            pass
+            respuesta = funciones.calcularMaximoJugador("asistencias_totales")
+            print("\nEl jugador con mayor cantidad de asistencias totales es:", respuesta)
 
         case 10:
-            pass
-
+            numeroIngresado = float(input("\nIngrese el valor de referencia: "))
+            print("\nJugadores con promedio de puntos superior a {0}:\n".format(numeroIngresado))
+            funciones.calcularPromedioSuperior(numeroIngresado, "promedio_puntos_por_partido")
+            
         case 11:
-            pass
+            numeroIngresado = float(input("\nIngrese el valor de referencia: "))
+            print("\nJugadores con promedio de rebotes superior a {0}:\n".format(numeroIngresado))
+            funciones.calcularPromedioSuperior(numeroIngresado, "promedio_rebotes_por_partido")
 
         case 12:
-            pass
+            numeroIngresado = float(input("\nIngrese el valor de referencia: "))
+            print("\nJugadores con promedio de asistencias superior a {0}:\n".format(numeroIngresado))
+            funciones.calcularPromedioSuperior(numeroIngresado, "promedio_asistencias_por_partido")
 
         case 13:
-            pass
+            respuesta = funciones.calcularMaximoJugador("robos_totales")
+            print("\nEl jugador con mayor cantidad de robos totales es:", respuesta)
 
         case 14:
-            pass        
+            respuesta = funciones.calcularMaximoJugador("bloqueos_totales")
+            print("\nEl jugador con mayor cantidad de bloqueos totales es:", respuesta)
+
         case 15:
-            pass
+            numeroIngresado = float(input("\nIngrese el valor de referencia: "))
+            print("\nJugadores con porcentaje de tiros libres superior a {0}:\n".format(numeroIngresado))
+            funciones.calcularPromedioSuperior(numeroIngresado, "porcentaje_tiros_libres")        
         
+        case 16:
+            respuesta = funciones.calcularPromedioSinUltimo()
+            print("El promedio de puntos por partido del equipo excluyendo al jugador con menor cantidad de puntos es:", respuesta)
+
         case 17:
-            pass
+            respuesta = funciones.calcularLogros()
+            print("\n", respuesta)
 
         case 18:
-            pass
+            numeroIngresado = float(input("\nIngrese el valor de referencia: "))
+            print("\nJugadores con porcentaje de tiros libres superior a {0}:\n".format(numeroIngresado))
+            funciones.calcularPromedioSuperior(numeroIngresado, "promedio_puntos_por_partido")   
 
         case 19:
-            pass
+            respuesta = funciones.calcularMaximoJugador("temporadas")
+            print("\nEl jugador con mayor cantidad de temporadas jugadas es:", respuesta)
 
         case 20:
             pass
